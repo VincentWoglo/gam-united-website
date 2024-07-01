@@ -1,0 +1,1 @@
+Use shopify or third party for the player registration to make it easier to do the payment
