@@ -781,10 +781,11 @@ footer .container .tickets-list {
     column-gap: 40px;
     padding: 40px 0;
 }
-
 .convert-kit-form .wrapper {
-
+    margin: auto;
 }
+
+
 
 .convert-kit-form .wrapper .registrations-title-notice {
     text-align: center;
@@ -818,7 +819,7 @@ footer .container .tickets-list {
 }
 
 @media screen and (max-width: 1346px) {
-    .container, .hero-section .container {
+    .container, .hero-section .container, .convert-kit-form .wrapper {
         max-width: 1100px;
     }
 
@@ -840,7 +841,7 @@ footer .container .tickets-list {
 }
 
 @media screen and (max-width: 1150px) {
-    .container, .hero-section .container {
+    .container, .hero-section .container, .convert-kit-form .wrapper {
         /* padding: 0px 50px; */
         max-width: 900px;
     }
@@ -888,7 +889,7 @@ footer .container .tickets-list {
 }
 
 @media screen and (max-width: 970px) {
-    .container {
+    .container, .convert-kit-form .wrapper {
         padding: 0px 40px;
     }
 
