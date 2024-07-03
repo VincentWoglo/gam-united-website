@@ -892,6 +892,10 @@ footer .container .tickets-list {
         padding: 0px 40px;
     }
 
+    .about-us-video-section {
+        padding: 80px 0px;
+    }
+
     .email-list-section .container .column-left, .email-list-section .container .column-right {
         width: 100%;
     }
