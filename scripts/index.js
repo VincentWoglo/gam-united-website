@@ -13,8 +13,14 @@ window.addEventListener("scroll", handleScroll);
 
 const hamburger_menu_icon = document.querySelector(".hamburger-menu-icon");
 const hamburger_menu_open = document.querySelector(".hamburger-menu-open");
+const hamburger_menu_close_icon = document.querySelector(".hamburger-close-icon");
 
 hamburger_menu_icon.addEventListener("click", ()=>{
     hamburger_menu_open.style.display = "block"
+});
+
+
+hamburger_menu_close_icon.addEventListener("click", ()=>{
+    hamburger_menu_open.style.display = "none"
 });
 
