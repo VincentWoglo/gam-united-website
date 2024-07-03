@@ -989,6 +989,10 @@ footer .container .tickets-list {
 }
 
 @media screen and (max-width: 770px) {
+
+    .email-list-section .container .column-left input {
+        width: 90%;
+    }
     .hero-section .container {
         box-sizing: border-box;
         position: static;
