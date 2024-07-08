@@ -590,6 +590,12 @@ body {
     top: 73px;
 
 }
+
+.youth-options-section .container .youth-option-2 .img-text-wrapper p {
+    margin-left: -40px;
+    top: 130px;
+}
+
 .youth-options-section .container .youth-option-1 .img-text-wrapper img,
 .youth-options-section .container .youth-option-2 .img-text-wrapper img {
     position: relative;
@@ -633,6 +639,10 @@ body {
     margin: auto;
     margin-top: 24px;
     line-height: 150%;
+}
+
+.register-player-section .container a {
+    display: contents;
 }
 
 .register-player-section  .container button {
