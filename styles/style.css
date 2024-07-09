@@ -387,12 +387,12 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    column-gap: 40px;
+    column-gap: 66px;
 }
 
 .leagues-we-are-in img {
-    height: 44px;
-    width: 132px;
+    height: 105px;
+    width: 120px;
 }
 
 /* About Academy Section */
