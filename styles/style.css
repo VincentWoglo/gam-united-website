@@ -911,6 +911,12 @@ footer .container .tickets-list {
   display: none;
 }
 
+.mySlides img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 600px;
+    object-position: top;
+}
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
