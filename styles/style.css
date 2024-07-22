@@ -725,7 +725,7 @@ body {
 }
 
 .about-us-video-section .container h2 {
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-align: center;
     margin: auto;
     font-size: 40px;
@@ -991,6 +991,57 @@ footer .container .tickets-list {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/* Coaches Section */
+
+.coaches-section {
+    padding: 80px 0;
+    background-color: #f8ce00;
+}
+
+.coaches-section .container h2 {
+    font-family: 'AS Roma Extra Bold Italic Inline';
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #035d9a;
+}
+
+.coaches-section .container .wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.coaches-section .container .wrapper .container-left img,
+.coaches-section .container .wrapper .container-right img {
+    width: 70%;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: top;
+    /* border: 1px red solid; */
+    margin: auto;
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 6px 0px 0px 0px #095e97;
+}
+
+.coaches-section .container .wrapper .container-left,
+.coaches-section .container .wrapper .container-right {
+    width: 50%;
+    /* border: 1px red solid */
+}
+
+.coaches-section .container .wrapper .container-left .coach-name,
+.coaches-section .container .wrapper .container-right .coach-name {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000;
+
+}
+
 @media screen and (max-width: 1346px) {
     .container, .hero-section .container, .convert-kit-form .wrapper {
         max-width: 1100px;
