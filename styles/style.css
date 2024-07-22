@@ -740,6 +740,7 @@ body {
     margin: auto;
     margin-top: 32px;
     display: flex;
+    max-height: 500px;
 }
 
 /* Footer section */
