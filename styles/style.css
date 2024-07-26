@@ -740,7 +740,8 @@ body {
     margin: auto;
     margin-top: 32px;
     display: flex;
-    max-height: 500px;
+    /* max-height: 500px; */
+    height: auto;
 }
 
 /* Footer section */
@@ -1204,6 +1205,7 @@ footer .container .tickets-list {
 
     .about-us-video-section .container video {
         width: 100%;
+        /* max-height: 200px; */
     }
 
     .top-navigation-section, .nav-menu-list-wrapper .nav-menu-list {
