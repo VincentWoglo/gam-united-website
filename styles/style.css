@@ -221,6 +221,11 @@ body {
     text-decoration: none;
 }
 
+.hamburger-menu-open .nav-menu-list li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .nav-menu-list-wrapper .nav-menu-list li:hover {
     text-decoration: underline;
     cursor: pointer;
