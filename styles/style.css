@@ -1025,7 +1025,7 @@ footer .container .tickets-list {
     width: 70%;
     max-height: 400px;
     object-fit: cover;
-    object-position: top;
+    object-position: center;
     /* border: 1px red solid; */
     margin: auto;
     display: flex;
