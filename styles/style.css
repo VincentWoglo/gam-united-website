@@ -1202,6 +1202,16 @@ footer .container .tickets-list {
         width: 70%;
     }
 
+    .all-gam-united-addresses-section .locations-container {
+        flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 20px;
+    }
+
+    .all-gam-united-addresses-section .locations-container .gam-locations {
+        width: 49%;
+    }
+
     .youth-options-section .container .youth-option-1 .img-text-wrapper img,
     .youth-options-section .container .youth-option-2 .img-text-wrapper img {
         max-width: 333px;
@@ -1316,5 +1326,11 @@ footer .container .tickets-list {
 
     .leagues-we-are-in img {
         margin: auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .all-gam-united-addresses-section .locations-container .gam-locations {
+        width: 100%;
     }
 }
