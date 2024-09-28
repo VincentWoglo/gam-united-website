@@ -799,7 +799,6 @@ footer .container .footer-social-media .footer-social-media-icons {
     display: flex;
     align-items: center;
     column-gap: 24px;
-    margin-top: 32px;
 }
 
 footer .container .footer-social-media .footer-social-media-icons li img {
@@ -1095,6 +1094,23 @@ footer .container .tickets-list {
     line-height: 93px;
     text-align: center;
     font-weight: 700;
+}
+
+footer .sub-footer-wrapper {
+    display: flex;
+    align-items:  center;
+    margin-top: 32px;
+    justify-content: space-between;
+}
+
+footer .sub-footer-wrapper .footer-registration-qr-code img {
+    max-width: 55px;
+    display: flex;
+    margin: auto;
+}
+
+footer .sub-footer-wrapper .footer-registration-qr-code p {
+    margin-top: 8px;
 }
 
 @media screen and (max-width: 1346px) {
