@@ -1070,6 +1070,7 @@ footer .container .tickets-list {
     box-shadow: 6px 0px 0px 0px #095e97;
 }
 
+
 .coaches-section .container .wrapper .container-left,
 .coaches-section .container .wrapper .container-right {
     width: 50%;
@@ -1094,6 +1095,72 @@ footer .container .tickets-list {
     line-height: 93px;
     text-align: center;
     font-weight: 700;
+}
+
+.container .staff-header {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-top: 24px;
+    text-transform: uppercase;
+}
+
+.staff-member-list .staff-card {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 16px;
+}
+
+.container .staff-member-list {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    row-gap: 24px;
+    display: flex;
+    flex-direction: column;
+    border: 1px #CACACA solid;
+    padding: 40px;
+    border-radius: 20px;
+}
+.staff-member-list .staff-card .staff-image {
+    border-radius: 100%;
+    border: 2px #CACACA solid;
+    width: 140px;
+    height: 140px;
+    min-width: 140px;
+    min-height: 140px;
+    object-fit: cover;
+}
+
+.staff-card .staff-name{
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.staff-card .staff-position{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(89, 89, 89);
+    margin-top: 10px;
+}
+
+.staff-card .president-contact{
+    display: flex;
+    align-items: center;
+    column-gap: 28px;
+    margin-top: 14px;
+    flex-wrap: wrap;
+}
+
+.staff-card  p {
+    word-break: break-all;
+}
+.staff-card .president-contact b {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 8px;
 }
 
 footer .sub-footer-wrapper {
@@ -1293,6 +1360,12 @@ footer .sub-footer-wrapper .footer-registration-qr-code p {
     }
 
 
+}
+
+@media screen and (max-width: 970px) {
+    .president-email {
+        margin-top: 8px;
+    }
 }
 
 @media screen and (max-width: 770px) {
