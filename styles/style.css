@@ -835,7 +835,6 @@ footer .container .tickets-list {
 }
 
 .convert-kit-form .container {
-    display: flex;
     column-gap: 40px;
     padding: 40px 0;
 }
@@ -843,7 +842,11 @@ footer .container .tickets-list {
     margin: auto;
 }
 
-
+.convert-kit-form .container .section-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 80px;
+}
 
 .convert-kit-form .wrapper .registrations-title-notice {
     text-align: center;
@@ -854,6 +857,9 @@ footer .container .tickets-list {
     margin-bottom: 40px;
 }
 
+.fjAgTx{
+    display: none !important;
+}
 .convert-kit-form .container .contact-map-container .contact-container-title{
     text-align: center;
     font-size: 40px;
